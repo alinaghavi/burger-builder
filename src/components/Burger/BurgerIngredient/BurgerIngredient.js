@@ -8,7 +8,7 @@ class BurgerIngredient extends Component {
     render() {
         let ingredient = null;
         switch (this.props.type) {
-            case 'BreadBottom' :
+            case 'bread-bottom' :
                 ingredient = <div className={styles.BreadBottom}></div>;
                 break;
             case 'bread-top':
@@ -34,11 +34,7 @@ class BurgerIngredient extends Component {
             default:
                 ingredient = null;
         }
-        return (
-            <div>
-
-            </div>
-        );
+        return ingredient;
     };
 }
 
