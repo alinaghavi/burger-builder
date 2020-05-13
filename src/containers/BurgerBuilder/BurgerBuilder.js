@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 import Aux from '../../hoc/Auxillary';
 import Burger from '../../components/Burger/Burger';
+import BurgerControls from '../../components/Burger/BuildControls/BuildControls';
 
 class BurgerBuilder extends Component {
     state = {
@@ -18,9 +19,7 @@ class BurgerBuilder extends Component {
         return (
             <Aux>
                 <Burger ingredients={this.state.ingredients}/>
-                <div>
-                    Burger Control
-                </div>
+                <BurgerControls />
             </Aux>
         );
     }
