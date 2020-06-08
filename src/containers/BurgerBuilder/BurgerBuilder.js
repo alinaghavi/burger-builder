@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import PropTypes from "prop-types";
-
 import Aux from "../../hoc/Auxillary";
 import Burger from "../../components/Burger/Burger";
 import BurgerControls from "../../components/Burger/BuildControls/BuildControls";
@@ -102,7 +100,6 @@ class BurgerBuilder extends Component {
             purchaseContinued={this.purchaseContinueHandler}
           />
         </Modal>
-        )
         <Burger ingredients={this.state.ingredients} />
         <BurgerControls
           addItem={this.addIngredientHandler}
@@ -116,7 +113,5 @@ class BurgerBuilder extends Component {
     );
   }
 }
-
-BurgerBuilder.propTypes = {};
 
 export default BurgerBuilder;
