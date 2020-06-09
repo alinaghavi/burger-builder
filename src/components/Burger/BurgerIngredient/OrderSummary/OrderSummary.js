@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Auxiliary from "../../../../hoc/Auxillary";
+import Auxiliary from "../../../../hoc/Auxillary/Auxillary";
 
 import Button from "../../../UI/Button/Button";
 

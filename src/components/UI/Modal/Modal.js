@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Auxiliary from "../../../hoc/Auxillary";
+import Auxiliary from "../../../hoc/Auxillary/Auxillary";
 import Backdrop from "../Backdrop/Backdrop";
 
 import styles from "./Modal.module.css";
